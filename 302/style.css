@@ -10,12 +10,19 @@ h2 {
     margin-top: 0px;
 }
 
+.items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
 .item {
     background: #f7f7f7;
     border: 1px solid #e7e7e7;
-    margin-bottom: 20px;
     padding: 20px;
     border-radius: 4px;
+
+    display: grid;
 }
 
 .buy {
