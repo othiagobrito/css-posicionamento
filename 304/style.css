@@ -1,12 +1,26 @@
+.item {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.photo {
+    grid-column: 1 / -1;
+}
+
+.description {
+    grid-column: 1 / -1;
+}
+
+.buy {
+    grid-column: 1 / -1;
+}
+
 /* Estilos gerais */
 
 body {
     font-family: Arial;
     margin: 40px;
-}
-
-.item {
-    display: grid;
 }
 
 h1, p {
